@@ -2,13 +2,15 @@
   "name": "nodebootstraper",
   "version": "3.3.7",
   "dependencies": {
+    "body-parser": "*",
     "express": "*",
     "jade": "*",
+    "method-override": "*",
+    "morgan": "*",
+    "pptx-compose": "^0.4.0",
+    "serve-favicon": "*",
     "stylus": "*",
-	"serve-favicon": "*",
-	"morgan": "*",
-	"body-parser": "*",
-	"method-override": "*"
+    "textract": "^2.2.0"
   },
   "engines": {
     "node": "*",
