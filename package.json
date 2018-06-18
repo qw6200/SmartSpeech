@@ -1,0 +1,17 @@
+{
+  "name": "nodebootstraper",
+  "version": "3.3.7",
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "stylus": "*",
+	"serve-favicon": "*",
+	"morgan": "*",
+	"body-parser": "*",
+	"method-override": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
