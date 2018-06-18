@@ -3,14 +3,13 @@
   "version": "3.3.7",
   "dependencies": {
     "body-parser": "*",
+    "ejs": "^2.6.1",
     "express": "*",
     "jade": "*",
     "method-override": "*",
     "morgan": "*",
-    "pptx-compose": "^0.4.0",
     "serve-favicon": "*",
-    "stylus": "*",
-    "textract": "^2.2.0"
+    "stylus": "*"
   },
   "engines": {
     "node": "*",
