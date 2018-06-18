@@ -15,8 +15,11 @@ var express = require('express')
 var app = express();
 
 app.set('port', process.env.PORT || 3000);
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+// app.set('views', __dirname + '/views');
+// app.set('view engine', 'jade');
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+
 app.use(favicon(__dirname + '/public/images/favicon.png'));
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
