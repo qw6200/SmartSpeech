@@ -2,21 +2,17 @@ const pptText;
 const textract = require('textract');
 textract.fromFileWithPath("Test.pptx", function( error, text ) {
     pptText = text;
-    console.log(pptText);
+    console.log(text);
 })
 
-console.log(pptText);
 
-//const composer = require('pptx-compose');
+const composer = require('pptx-compose');
 
 //get the title of current slide and next slide
 
-//function getText(slideNum) {
-//    composer.parse('text.pptx', function (err, json) {
-//  var json = (JSON.stringify(json, null, 2)
-//});
-
-
+composer.parse('Test.pptx', function (err, json) {
+  console.log(JSON.stringify(json, null, 2));
+});
 
 
 
