@@ -1,6 +1,6 @@
 const pptText;
 const textract = require('textract');
-textract.fromFileWithPath("text.pptx", function( error, text ) {
+textract.fromFileWithPath("Test.pptx", function( error, text ) {
     pptText = text;
     console.log(text);
 })
