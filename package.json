@@ -3,11 +3,8 @@
   "version": "3.3.7",
   "dependencies": {
     "body-parser": "*",
-<<<<<<< HEAD
     "ejs": "^2.6.1",
-=======
     "bootstrap": "^4.1.1",
->>>>>>> dans-corner
     "express": "*",
     "gulp-clean-css": "^3.9.4",
     "gulp-nodemon": "^2.2.1",

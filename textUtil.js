@@ -8,10 +8,10 @@ textract.fromFileWithPath("Test.pptx", function( error, text ) {
 
 const pptComposer = require('pptx-compose');
 
-let pptComposer = new pptComposer(); //instantiate
+let Composer = new pptComposer(); //instantiate
 
 // Parses a PPTX file
-pptComposer.parse('Test.pptx', (err, content)=>{
+Composer.parse('Test.pptx', (err, content)=>{
     console.log(content);
 })
 
