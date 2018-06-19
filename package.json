@@ -8,6 +8,7 @@
     "gulp-clean-css": "^3.9.4",
     "gulp-nodemon": "^2.2.1",
     "jade": "*",
+    "jspeech": "^0.1.1",
     "method-override": "*",
     "morgan": "*",
     "pptx-compose": "^0.4.0",
