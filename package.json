@@ -3,7 +3,10 @@
   "version": "3.3.7",
   "dependencies": {
     "body-parser": "*",
+    "bootstrap": "^4.1.1",
     "express": "*",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-nodemon": "^2.2.1",
     "jade": "*",
     "method-override": "*",
     "morgan": "*",
@@ -15,5 +18,10 @@
   "engines": {
     "node": "*",
     "npm": "*"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }
