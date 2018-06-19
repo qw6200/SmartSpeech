@@ -11,7 +11,7 @@ const composer = require('pptx-compose');
 
 function getText(slideNum) {
     composer.parse('text.pptx', function (err, json) {
-  var json = (JSON.stringify(json, null, 2);
+  var json = (JSON.stringify(json, null, 2)
 });
 
 
