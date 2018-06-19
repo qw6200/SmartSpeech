@@ -6,15 +6,13 @@ textract.fromFileWithPath("Test.pptx", function( error, text ) {
 })
 
 
-const composer = require('pptx-compose');
+const pptComposer = require('pptx-compose');
 
 let composer = new pptComposer(); //instantiate
 
-//get the title of current slide and next slide
-
-composer.parse('Test.pptx', function (err, json) {
-  console.log(JSON.stringify(json, null, 2));
-});
-
+// Parses a PPTX file
+composer.parse('/path/to/pptx/file.pptx', (err, content)=>{
+    console.log(content);
+})
 
 
