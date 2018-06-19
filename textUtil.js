@@ -2,7 +2,7 @@ const pptText;
 const textract = require('textract');
 textract.fromFileWithPath("text.pptx", function( error, text ) {
     pptText = text;
-    console.log(pptText);
+    console.log(text);
 })
 
 //const composer = require('pptx-compose');
