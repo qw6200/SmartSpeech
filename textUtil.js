@@ -5,6 +5,8 @@ textract.fromFileWithPath("Test.pptx", function( error, text ) {
     console.log(pptText);
 })
 
+console.log(pptText);
+
 //const composer = require('pptx-compose');
 
 //get the title of current slide and next slide
