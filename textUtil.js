@@ -8,6 +8,8 @@ textract.fromFileWithPath("Test.pptx", function( error, text ) {
 
 const composer = require('pptx-compose');
 
+let composer = new pptComposer(); //instantiate
+
 //get the title of current slide and next slide
 
 composer.parse('Test.pptx', function (err, json) {
